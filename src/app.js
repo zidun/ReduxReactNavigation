@@ -44,7 +44,7 @@ class App extends Component {
             <ScrollView style={{flex:1}}>
                 <View>
                     <Slider/>
-                    <List/>
+                    <List navigation={this.props.navigation}/>
                 </View>
             </ScrollView>
         </SideMenu>

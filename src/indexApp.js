@@ -4,6 +4,7 @@ import {StackNavigator} from 'react-navigation';
 
 import App from './app';
 import Search from './components/Search';
+import Details from './components/Details';
 
 const noTransition = () => {
     return {
@@ -19,6 +20,9 @@ const IndexApp = StackNavigator(
         },
         Search:{
             screen:Search
+        },
+        Details:{
+            screen:Details
         },
     },{
         transitionConfig:noTransition,
